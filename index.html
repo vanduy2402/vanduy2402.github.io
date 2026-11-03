@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Văn Duy</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        .cv {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+        }
+
+        .left {
+            background: #0f172a;
+            color: white;
+            padding: 35px 25px;
+        }
+
+        .avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: #334155;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .name {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .name h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .name p {
+            color: #94a3b8;
+        }
+
+        .left h2 {
+            font-size: 18px;
+            border-bottom: 1px solid #475569;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        .contact p {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .skill {
+            margin: 12px 0;
+        }
+
+        .skill-bar {
+            height: 7px;
+            background: #334155;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            background: #38bdf8;
+        }
+
+        .right {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #0f172a;
+            border-bottom: 3px solid #38bdf8;
+            padding-bottom: 8px;
+            margin-bottom: 18px;
+        }
+
+        .section p {
+            line-height: 1.7;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        .item h3 {
+            margin-bottom: 5px;
+            color: #0f172a;
+        }
+
+        .item span {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .project {
+            background: #f8fafc;
+            padding: 15px;
+            border-left: 4px solid #38bdf8;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 700px) {
+            .cv {
+                grid-template-columns: 1fr;
+                margin: 0;
+            }
+
+            .right {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <div class="left">
+
+        <div class="avatar">
+            VD
+        </div>
+
+        <div class="name">
+            <h1>VĂN DUY</h1>
+            <p>Sinh viên Công nghệ thông tin</p>
+        </div>
+
+        <div class="contact">
+            <h2>LIÊN HỆ</h2>
+
+            <p>📧 Email: your-email@gmail.com</p>
+            <p>📱 Điện thoại: 0xxx xxx xxx</p>
+            <p>📍 Việt Nam</p>
+            <p>🌐 GitHub: vanduy2402</p>
+        </div>
+
+        <h2>KỸ NĂNG</h2>
+
+        <div class="skill">
+            HTML
+            <div class="skill-bar">
+                <span style="width: 80%"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            WordPress
+            <div class="skill-bar">
+                <span style="width: 85%"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            Networking
+            <div class="skill-bar">
+                <span style="width: 75%"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            Cisco
+            <div class="skill-bar">
+                <span style="width: 70%"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            Microsoft Office
+            <div class="skill-bar">
+                <span style="width: 80%"></span>
+            </div>
+        </div>
+
+        <h2>NGÔN NGỮ</h2>
+        <p>Tiếng Việt: Bản ngữ</p>
+        <p>Tiếng Anh: Cơ bản</p>
+
+    </div>
+
+
+    <div class="right">
+
+        <div class="section">
+            <h2>GIỚI THIỆU</h2>
+
+            <p>
+                Tôi là sinh viên yêu thích công nghệ thông tin,
+                đặc biệt quan tâm đến phát triển website, WordPress
+                và quản trị mạng. Tôi luôn muốn học hỏi thêm kiến thức
+                mới và phát triển kỹ năng thực tế.
+            </p>
+        </div>
+
+
+        <div class="section">
+
+            <h2>MỤC TIÊU</h2>
+
+            <p>
+                Mong muốn được làm việc trong môi trường chuyên nghiệp,
+                áp dụng kiến thức đã học vào thực tế và phát triển
+                kỹ năng trong lĩnh vực Công nghệ thông tin.
+            </p>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>HỌC VẤN</h2>
+
+            <div class="item">
+                <h3>FPT Polytechnic</h3>
+                <span>Sinh viên Công nghệ thông tin</span>
+
+                <p>
+                    Học tập các kiến thức về lập trình website,
+                    cơ sở dữ liệu, quản trị mạng và hệ thống máy tính.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>DỰ ÁN</h2>
+
+            <div class="project">
+
+                <h3>Website bán hàng</h3>
+
+                <p>
+                    Xây dựng website thương mại điện tử bằng WordPress,
+                    quản lý sản phẩm, danh mục và nội dung website.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>Mô hình mạng doanh nghiệp</h3>
+
+                <p>
+                    Thiết kế và cấu hình mô hình mạng bằng Cisco Packet Tracer,
+                    thực hành VLAN, VLSM, DHCP, Routing và NAT.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>CV Online</h3>
+
+                <p>
+                    Thiết kế CV cá nhân và triển khai website
+                    bằng GitHub Pages.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>SỞ THÍCH</h2>
+
+            <p>
+                ⚽ Bóng đá &nbsp;&nbsp;
+                🏸 Cầu lông &nbsp;&nbsp;
+                🎮 Game &nbsp;&nbsp;
+                💻 Công nghệ
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
